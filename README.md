@@ -36,7 +36,7 @@ cp -r . /var/www/html/simple_test_repo
 
 ## Usage
 
-* Excecute : ```cd /srv/src/scripts/pull_and_deploy_website.sh``` at ```~$```
+* Excecute : ```srv/src/scripts/pull_and_deploy_website.sh``` at ```~$```
 
 ## Customization
 
@@ -63,8 +63,8 @@ And a third to execute the two previous ones :
 
 ```shell
 !#/bin/bash
-cd /srv/src/scripts/pull_website.sh
-cd /srv/src/scripts/deploy_website.sh
+/srv/src/scripts/pull_website.sh
+/srv/src/scripts/deploy_website.sh
 
 ```
 
