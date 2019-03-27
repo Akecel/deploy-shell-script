@@ -28,7 +28,7 @@ For the exemple we are going to take a simple repo on github : **simple_test_rep
 !#/bin/bash
 cd /srv/src/simple_test_repo
 git pull
-cp -r . /var/www/html/simple_test_repo
+rsync -r . /var/www/html --exclude .git
 ```
 
 * Give permission to the script : ```chmod +x pull_and_deploy_website.sh```
@@ -57,7 +57,7 @@ A second one for copying :
 ```shell
 !#/bin/bash
 cd /srv/src/simple_test_repo
-cp -r . /var/www/html/simple_test_repo
+rsync -r . /var/www/html --exclude .git
 ```
 And a third to execute the two previous ones : 
 
