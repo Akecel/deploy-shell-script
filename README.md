@@ -1,15 +1,13 @@
+# Deploy Shell Script :rocket:
+
 Simple shell script to deploy with ssh, git and shell script on a web server.
 This deployment technique separates your web server from your remote git, it offers additional security, as well as increased scalability. Moreover, this process will be the same regardless of the server.
-
----
 
 ## Requirement
 
 * Github or GitLab repository
 * Web server (Apache or Ngnix)
 * Ability to use SSH on your server
-
----
 
 ## Configuration
 
@@ -69,8 +67,6 @@ chmod +x pull_and_deploy_website.sh
 ```
 You have finished with the basic configuration, you can of course adapt all this to your needs. For a first deployment it is strongly recommended to add your configuration files only in *var/html/www* and not in *src*.
 
----
-
 ## Usage
 
 * Excecute : 
@@ -78,8 +74,6 @@ You have finished with the basic configuration, you can of course adapt all this
 srv/src/scripts/pull_and_deploy_website.sh
 ```
 This will execute your script and all the commands found there, in the event of an error it will display the error of the command in question. During the process (git pull) it will ask you for your Github or Gitlab credentials, to avoid this, use an ssh key. 
-
----
 
 ## Customization
 
