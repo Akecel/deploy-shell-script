@@ -1,6 +1,6 @@
 # Deploy Shell Script :rocket:
 
-Simple shell script to easily deploy your applications on a web server.
+Simple shell scripts to easily deploy your applications on a web server.
 This deployment technique separates your web server from your remote git, it offers additional security, as well as increased scalability. Moreover, this process will be the same regardless of the server.
 
 ## Requirement
