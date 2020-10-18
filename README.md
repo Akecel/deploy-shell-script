@@ -6,13 +6,12 @@ This deployment technique separates your web server from your remote git, it off
 ## Requirement
 
 * Github or GitLab repository
-* Web server (Apache or Ngnix)
+* Web server
 * Ability to use SSH on your server
 
 ## Configuration
 
 For the exemple we are going to take a simple repo on github : **simple_test_repo**.
-*Don't forget to configure your gitignore file for ignore configuration (environnement, database) file for example.*
 
 * First, connect to you server with ssh : 
 ```shell
